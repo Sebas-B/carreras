@@ -1,0 +1,64 @@
+{
+    "nombreApp": "Carreras",
+    "rutas":[
+        {
+                "ruta" : "one",
+                "icon" : "1",
+                "texto":  "Ingeniería en Robótica"  
+        },
+        {
+            "ruta" : "two",
+            "icon" : "2",
+            "texto":  "Astrofísica"
+        },
+        {
+            "ruta" : "three",
+            "icon" : "3",
+            "texto":  "Ingeniería Ambiental"
+
+        },
+        {
+            "ruta" : "four",
+            "icon" : "4",
+            "texto":  "Ingeniería en Geofísica"
+
+        },
+        {
+            "ruta" : "five",
+            "icon" : "5",
+            "texto":  "Diseño Industrial"
+
+        },
+        {
+            "ruta" : "six",
+            "icon" : "6",
+            "texto":  "Ingeniería Agrónoma"
+
+        },
+        {
+            "ruta" : "seven",
+            "icon" : "7",
+            "texto":  "Ingeniería en Aeronáutica"
+
+        },
+        {
+            "ruta" : "eight",
+            "icon" : "8",
+            "texto":  "Biotecnología"
+
+        },
+        {
+            "ruta" : "nine",
+            "icon" : "9",
+            "texto":  "Media Manager"
+
+        },
+        {
+            "ruta" : "ten",
+            "icon" : "10",
+            "texto":  "Ingeniería Genética"
+
+        }
+    ]
+
+}
