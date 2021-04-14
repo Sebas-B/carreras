@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85630908995",
+    "project_id": "carreras-55d01",
+    "storage_bucket": "carreras-55d01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85630908995:android:4bdf090b5e941e4b7872f6",
+        "android_client_info": {
+          "package_name": "com.example.carreras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85630908995-3hhgkevl99v2fk540occ5lngo9p2qesb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoPGJTW4xFfyBG6Fa4kqUNa67xIxH9fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85630908995-3hhgkevl99v2fk540occ5lngo9p2qesb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

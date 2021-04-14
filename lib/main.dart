@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+
+import 'package:carreras/src/bloc/provider.dart';
+
 import 'package:carreras/src/home_page.dart';
 import 'package:carreras/src/page1.dart';
 import 'package:carreras/src/page2.dart';
@@ -9,7 +13,8 @@ import 'package:carreras/src/page7.dart';
 import 'package:carreras/src/page8.dart';
 import 'package:carreras/src/page9.dart';
 import 'package:carreras/src/page10.dart';
-import 'package:flutter/material.dart';
+import 'package:carreras/src/home_inicio.dart';
+import 'package:carreras/src/pages/registro_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,10 +25,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
+      initialRoute: 'inicio',
       debugShowCheckedModeBanner: false,
       //home: HomePage()
 
       routes: <String, WidgetBuilder>{
+        'registro': (BuildContext context) => RegistroPage(),
+        'inicio': (BuildContext contex) => Inicio(),
         '/': (BuildContext contex) => HomePage(),
         'one': (BuildContext contex) => Page1(),
         'two': (BuildContext contex) => Page2(),
